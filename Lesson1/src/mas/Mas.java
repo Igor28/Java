@@ -32,7 +32,7 @@ public class Mas {
 	
 	public static void arraysum(int[] array) {
 		int sum;
-		for (int i = 0; i < array.length; i++) {
+		
 			
 		}
 	}
