@@ -22,7 +22,7 @@ public class Mas {
 				max = array[i];
 			}
 		}
-		System.out.println("Максимальне значення " + max);
+		System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ " + max);
 	}
 
 	public static void arrayMin(int[] array) {
@@ -32,7 +32,7 @@ public class Mas {
 				min = array[i];
 			}
 		}
-		System.out.println("Мінімальне значення " + min);
+		System.out.println("РњС–РЅС–РјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ " + min);
 	}
 	
 	public static void arraySum(int[] array) {
@@ -40,7 +40,7 @@ public class Mas {
 		for (int i = 0; i < array.length; i++) {
 			sum+=array[i];
 		}
-			System.out.println("Сума всіх алементів " +sum);
+			System.out.println("РЎСѓРјР° РІСЃС–С… Р°Р»РµРјРµРЅС‚С–РІ " +sum);
 		}
 	
 	public static void arraySerAr(int[] array){
@@ -48,25 +48,25 @@ public class Mas {
 		for (int i = 0; i < array.length; i++) {
 			s+=array[i];
 		}
-		System.out.println("Середнє арифметичне " +s/array.length);
+		System.out.println("РЎРµСЂРµРґРЅС” Р°СЂРёС„РјРµС‚РёС‡РЅРµ " +s/array.length);
 	}
-	
+//РћР±'С”РґРЅР°РЅРЅСЏ РґРІРѕС… РјР°СЃРёРІС–РІ	
 	public static int[]merge(int[]a, int[]b){
 		
         int[] c = new int[ a.length +b.length];
         for (int i=0; i<a.length; i++){
             c[i]=a[i];
         }
-        for (int i=a.length, j=0; j<b.length;i++, j++ ){// a.length недуже зрозуміло
+        for (int i=a.length, j=0; j<b.length;i++, j++ ){// int a.length РЅРµРґСѓР¶Рµ Р·СЂРѕР·СѓРјС–Р»Рѕ
                 c[i]=b[j];
               
         }
 		  for(int i:c){
 		  System.out.print(i+" ");}    	
-		return c;// що тут має бути?
+		return c;// С‰Рѕ С‚СѓС‚ РјР°С” Р±СѓС‚Рё?
 		
 	}
-	
+	//РћР±'С”РґРЅР°РЅРЅСЏ РґРІРѕС… РјР°СЃРёРІС–РІ С‚Р° РІРёРІС–Рґ Р»РёС€Рµ РґРѕРґР°С‚РЅС–С… Р·РЅР°С‡РµРЅСЊ	
 	public static void positive(int[] array){
 		int[] c = new int[array.length];
 		System.out.println();
@@ -85,7 +85,7 @@ public class Mas {
 		for (int i = 0; i < a.length; i++) {
 			c[i] = a[i];
 		}
-		for (int i = a.length, j = 0; j < b.length; i++, j++) {// a.length  недуже  зрозуміло																															
+		for (int i = a.length, j = 0; j < b.length; i++, j++) {// a.length  РЅРµРґСѓР¶Рµ  Р·СЂРѕР·СѓРјС–Р»Рѕ																															
 			c[i] = b[j];
 		}
 		int t;
